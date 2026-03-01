@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas_2</title>
+</head>
+
+<body>
+
+    <form action="daftar.php" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>
+                    <label for="nama">Nama</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="nama" id="nama" placeholder="Nama Anda" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email" pla>Email</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Jenis Kelamin</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" id="jenis_kelamin_laki" value="laki-laki">
+                    <label for="jenis_kelamin_laki">Laki-laki</label>
+                    <input type="radio" name="jenis_kelamin" id="jenis_kelamin_perempuan" value="perempuan">
+                    <label for="jenis_kelamin_perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hobi</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi[]" id="musik" value="musik">
+                    <label for="musik">Musik</label>
+                    <input type="checkbox" name="hobi[]" id="olahraga" value="olahraga">
+                    <label for="olahraga">Olahraga</label>
+                    <input type="checkbox" name="hobi[]" id="membaca" value="membaca">
+                    <label for="membaca">Membaca</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pilih_kota">Pilih Kota</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <select name="pilih_kota">
+                        <option value="jakarta">Jakarta</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Surabaya">Surabaya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Upload Foto</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="file" name="file" id="file" accept="image/*">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button type="submit" name="daftar">Daftar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
