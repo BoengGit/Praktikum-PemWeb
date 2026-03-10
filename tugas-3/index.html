@@ -23,9 +23,69 @@
 
     <main class="container">
         <section class="content">
-            <h2>Artikel Utama</h2>
-            <p>Ini adalah contoh halaman web sederhana menggunakan CSS dan Flexbox untuk tata letak.</p>
-            <button class="btn">Klik Saya</button>
+            <h2>Formulir Pendaftaran</h2>
+            <p class="subtitle">Silakan isi formulir di bawah ini untuk mendaftar.</p>
+
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+
+                <div class="form-group">
+                    <label>Jenis Kelamin:</label>
+                    <div class="option-row">
+                        <span>Laki-laki</span>
+                        <input type="radio" name="kelamin" value="laki-laki">
+                    </div>
+                    <div class="option-row">
+                        <span>Perempuan</span>
+                        <input type="radio" name="kelamin" value="perempuan">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Hobi:</label>
+                    <div class="option-row">
+                        <span>Musik</span>
+                        <input type="checkbox" name="hobi" value="musik">
+                    </div>
+                    <div class="option-row">
+                        <span>Olahraga</span>
+                        <input type="checkbox" name="hobi" value="olahraga">
+                    </div>
+                    <div class="option-row">
+                        <span>Membaca</span>
+                        <input type="checkbox" name="hobi" value="membaca">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="kota">Pilih Kota:</label>
+                    <select id="kota" name="kota">
+                        <option value="jakarta">Jakarta</option>
+                        <option value="bandung">Bandung</option>
+                        <option value="surabaya">Surabaya</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan Tambahan:</label>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan di sini..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Kirim</button>
+            </form>
         </section>
 
         <aside class="sidebar">
@@ -33,10 +93,6 @@
             <p>Bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.</p>
         </aside>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Halaman Web Sederhana. Dibuat dengan CSS.</p>
-    </footer>
 
 </body>
 
