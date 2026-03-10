@@ -45,7 +45,6 @@ nav a:hover {
     margin: 20px;
 }
 
-/* --- Area Formulir --- */
 .content {
     flex: 2;
     background-color: #f0f0f0;
@@ -67,7 +66,6 @@ nav a:hover {
 .form-group {
     margin-bottom: 15px;
     border-bottom: 1px solid #ddd;
-    /* Garis pemisah tipis seperti di gambar */
     padding-bottom: 10px;
 }
 
@@ -93,7 +91,6 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-family: Arial, sans-serif;
-    /* Font sans-serif untuk isian form */
     background-color: #fff;
 }
 
@@ -101,22 +98,18 @@ textarea {
     resize: vertical;
 }
 
-/* Styling khusus untuk menyamakan jarak Radio & Checkbox di gambar */
 .option-row {
     display: flex;
     width: 300px;
-    /* Lebar area agar bulatannya menjorok ke kanan */
     justify-content: space-between;
     margin-bottom: 8px;
     font-size: 14px;
     font-weight: bold;
 }
 
-/* Tombol Kirim Biru */
 .btn-submit {
     width: 100%;
     background-color: #3498db;
-    /* Biru terang */
     color: white;
     border: none;
     padding: 12px;
@@ -131,7 +124,6 @@ textarea {
     background-color: #2980b9;
 }
 
-/* --- Sidebar --- */
 .sidebar {
     flex: 1;
     background-color: #b0b5b9;
